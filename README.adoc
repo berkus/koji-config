@@ -1,0 +1,5 @@
+= Koji config
+
+This is a configuration file for https://github.com/its-danny/koji[koji].
+
+Copy koji-config.toml to `~/Library/Application Support/koji/config.toml`
