@@ -1,0 +1,62 @@
+emoji = true
+autocomplete = true
+
+# Based on https://github.com/pvdlg/conventional-commit-types
+# https://gist.github.com/parmentf/035de27d6ed1dce0b36a
+# https://gist.github.com/parmentf/359667bf23e08a1bd8241fbf47ecdef0
+# and https://github.com/MichaelCurrin/emoji-resources/blob/main/git-log-emoji.md
+
+[[commit_types]]
+name = "feat"
+emoji = "✨"
+description = "A new feature"
+
+[[commit_types]]
+name = "fix"
+emoji = "🐛"
+description = "A bug fix"
+
+[[commit_types]]
+name = "docs"
+emoji = "📚"
+description = "Documentation only changes"
+
+[[commit_types]]
+name = "style"
+emoji = "💎"
+description = "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
+
+[[commit_types]]
+name = "refactor"
+emoji = "♻️"
+description = "A code change that neither fixes a bug nor adds a feature"
+
+[[commit_types]]
+name = "perf"
+emoji = "🚀"
+description = "A code change that improves performance"
+
+[[commit_types]]
+name = "test"
+emoji = "🚨"
+description = "Adding missing tests or correcting existing tests"
+
+[[commit_types]]
+name = "build"
+emoji = "🛠"
+description = "Changes that affect the build system or external dependencies"
+
+[[commit_types]]
+name = "ci"
+emoji = "⚙️"
+description = "Changes to our CI configuration files and scripts"
+
+[[commit_types]]
+name = "chore"
+emoji = "🧹"
+description = "Other changes that don't modify src or test files"
+
+[[commit_types]]
+name = "revert"
+emoji = "🗑"
+description = "Reverts a previous commit"
